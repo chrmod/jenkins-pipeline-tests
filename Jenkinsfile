@@ -1,4 +1,5 @@
 node ("master"){ 
-  println GIT_COMMIT
-  sh 'env'
+   checkout scm
+   
+   sh 'ls'
 }
