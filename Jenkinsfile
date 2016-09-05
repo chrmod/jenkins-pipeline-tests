@@ -1,6 +1,9 @@
 node ("master"){ 
-   stage("buid") {
-      print binding.variables
-      sh 'ls'
+   stage("show groovy variables") {
+      print binding.variables  
+   }
+      
+   stage("show env variables")
+      sh 'env'
    }
 }
