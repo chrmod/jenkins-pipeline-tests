@@ -3,7 +3,7 @@ node ("master"){
       print binding.variables  
    }
       
-   stage("show env variables")
+   stage("show env variables") {
       sh 'env'
    }
 }
