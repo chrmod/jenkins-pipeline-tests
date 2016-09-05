@@ -1,3 +1,5 @@
 node ("master"){ 
-   sh 'ls'
+   stage("buid") {
+      sh 'ls'
+   }
 }
