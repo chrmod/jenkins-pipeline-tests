@@ -1,3 +1,5 @@
+readFile('README.md')
+
 node ("master"){ 
    stage("show groovy variables") {
       print binding.variables  
