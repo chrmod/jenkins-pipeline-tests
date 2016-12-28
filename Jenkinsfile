@@ -1,4 +1,3 @@
-load('README.md')
 
 node ("master"){ 
    stage("show groovy variables") {
